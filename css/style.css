@@ -1,0 +1,97 @@
+body{
+    font-family: monospace;
+    font-size: larger;
+}
+
+.main-container{
+    margin-left: 120px;
+    margin-right: 120px;
+    display: flex;
+}
+
+.left-column{
+    flex: 1;
+    color: white;
+    padding-left: 25px;
+    background-color: rgba(33,32,38,255);
+}
+
+.right-column{
+    flex: 2;
+    background-color: rgb(255, 255, 255);
+}
+
+.left-content{ 
+    padding-left: 25px;
+}
+.name-heading{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #fecb00;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.job-points{
+    list-style-type:circle ;
+}
+
+.software-column{
+    column-count: 2;
+    column-gap: 50px;
+}
+
+.list-highlight{
+    display: flex;
+    width: 100%;
+}
+
+.yellow-highlight{
+    flex: 0.3;
+    background-color:  #fecb00;
+    width: 100%;
+}
+
+.grey-highlight{
+    flex: 2;
+    background-color: rgba(41,42,47,255);
+}
+
+img{
+    width: 100%;
+    margin-left: -25px;
+}
+
+h1{
+    font-weight:lighter;
+}
+
+.progress-container {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.progress-bar {
+    width: 70%; /* Adjust this value to set the initial progress */
+    height: 5px;
+    background-color: #303330;
+    border-radius: 5px;
+}
+
+.right-line{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.left-line{
+    height: 2px;
+    background-color: #fecb00;
+}
